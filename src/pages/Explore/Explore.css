@@ -24,6 +24,18 @@
   display: flex;
   justify-content: space-between;
 }
+
 .exploreCategories a {
   width: 48%;
+}
+
+@media (min-width: 1217px) {
+  .explore {
+    margin-bottom: 10rem;
+  }
+}
+@media (max-height: 536) {
+  .explore {
+    margin-bottom: 10rem;
+  }
 }
