@@ -6,6 +6,15 @@
   margin-top: 3rem;
 }
 
+.exploreCategories {
+  display: flex;
+  justify-content: space-between;
+}
+
+.exploreCategories a {
+  width: 48%;
+}
+
 .exploreCategoryImg {
   min-height: 115px;
   height: 15vw;
@@ -18,15 +27,6 @@
 .exploreCategoryName {
   font-weight: 500;
   text-align: left;
-}
-
-.exploreCategories {
-  display: flex;
-  justify-content: space-between;
-}
-
-.exploreCategories a {
-  width: 48%;
 }
 
 @media (min-width: 1217px) {

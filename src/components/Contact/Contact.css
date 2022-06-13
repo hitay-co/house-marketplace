@@ -23,3 +23,9 @@
 .messageLabel {
   margin-bottom: 0.5rem;
 }
+
+.textarea {
+  padding: 1rem 1.5rem;
+  height: 300px;
+  border-radius: 1rem;
+}

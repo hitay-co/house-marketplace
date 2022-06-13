@@ -60,8 +60,8 @@
   opacity: 0.75;
 }
 
-.createListingButton {
-  margin-top: 5rem;
+.formInputFile {
+  width: 100%;
 }
 
 .formInputSmall,
@@ -83,10 +83,6 @@
   max-width: 326px;
 }
 
-.formInputFile {
-  width: 100%;
-}
-
 .formInputFile::-webkit-file-upload-button {
   background-color: #885df1;
   border: none;
@@ -95,4 +91,8 @@
   padding: 0.5rem 0.75rem;
   border-radius: 1rem;
   margin-right: 1rem;
+}
+
+.createListingButton {
+  margin-top: 5rem;
 }
