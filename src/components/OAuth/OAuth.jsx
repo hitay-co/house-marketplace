@@ -2,9 +2,9 @@ import { getAuth, GoogleAuthProvider, signInWithPopup } from 'firebase/auth';
 import { doc, getDoc, serverTimestamp, setDoc } from 'firebase/firestore';
 import { useLocation, useNavigate } from 'react-router-dom';
 import { toast } from 'react-toastify';
-import googleIcon from '../assets/icons/googleIcon.svg';
-import { db } from '../firebase.config';
-import getErrorMessageForToastify from '../helpers/getErrorMessageForToastify';
+import googleIcon from '../../assets/icons/googleIcon.svg';
+import { db } from '../../firebase.config';
+import getErrorMessageForToastify from '../../helpers/getErrorMessageForToastify';
 
 const OAuth = () => {
   const navigate = useNavigate();

@@ -4,9 +4,9 @@ import { toast } from 'react-toastify';
 import { A11y, Navigation, Pagination, Scrollbar } from 'swiper';
 import 'swiper/css/bundle';
 import { Swiper, SwiperSlide } from 'swiper/react';
-import Spinner from '../components/Spinner';
-import getErrorMessageForToastify from '../helpers/getErrorMessageForToastify';
-import { getMultipleDocsFromFirestore } from '../services/getMultipleDocsFromFirestore';
+import getErrorMessageForToastify from '../../helpers/getErrorMessageForToastify';
+import { getMultipleDocsFromFirestore } from '../../services/getMultipleDocsFromFirestore';
+import Spinner from '../Spinner/Spinner';
 
 const Slider = () => {
   const [listings, setListings] = useState([]);

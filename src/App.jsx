@@ -2,9 +2,9 @@ import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import { ToastContainer } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 import routes from './routes';
-import Navbar from './components/Navbar';
-import PrivateRoute from './components/PrivateRoute';
-import Profile from './pages/Profile';
+import Navbar from './components/Navbar/Navbar';
+import PrivateRoute from './components/PrivateRoute/PrivateRoute';
+import Profile from './pages/Profile/Profile';
 
 const App = () => {
   return (

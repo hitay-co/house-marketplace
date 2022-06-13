@@ -4,11 +4,12 @@ import { useEffect, useRef, useState } from 'react';
 import { FormProvider, useForm } from 'react-hook-form';
 import { useNavigate } from 'react-router-dom';
 import { toast } from 'react-toastify';
-import { db } from '../firebase.config';
-import getErrorMessageForToastify from '../helpers/getErrorMessageForToastify';
-import uploadImages from '../services/uploadImages';
-import CreateListingForm from './CreateListingForm';
-import Spinner from './Spinner';
+import CreateListingForm from '../CreateListingForm/CreateListingForm';
+import { db } from '../../firebase.config';
+import getErrorMessageForToastify from '../../helpers/getErrorMessageForToastify';
+import uploadImages from '../../services/uploadImages';
+
+import Spinner from '../Spinner/Spinner';
 
 const CreateListing = () => {
   const [loading, setLoading] = useState(false);

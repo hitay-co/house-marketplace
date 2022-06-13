@@ -1,9 +1,9 @@
 import { useEffect, useState } from 'react';
 import { toast } from 'react-toastify';
-import ListingItem from '../components/ListingItem';
-import Spinner from '../components/Spinner';
-import getErrorMessageForToastify from '../helpers/getErrorMessageForToastify';
-import { getMultipleDocsFromFirestore } from '../services/getMultipleDocsFromFirestore';
+import ListingItem from '../../components/ListingItem/ListingItem';
+import Spinner from '../../components/Spinner/Spinner';
+import getErrorMessageForToastify from '../../helpers/getErrorMessageForToastify';
+import { getMultipleDocsFromFirestore } from '../../services/getMultipleDocsFromFirestore';
 
 const Offers = () => {
   const [listings, setListings] = useState([]);

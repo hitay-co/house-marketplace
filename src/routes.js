@@ -1,12 +1,12 @@
-import Category from './components/Category';
-import Contact from './components/Contact';
-import CreateListing from './components/CreateListing';
-import Listing from './components/Listing';
-import Explore from './pages/Explore';
-import ForgotPassword from './pages/ForgotPassword';
-import Offers from './pages/Offers';
-import Signin from './pages/Signin';
-import Signup from './pages/Signup';
+import Category from './components/Category/Category';
+import Contact from './components/Contact/Contact';
+import CreateListing from './components/CreateListing/CreateListing';
+import Listing from './components/Listing/Listing';
+import Explore from './pages/Explore/Explore';
+import ForgotPassword from './pages/ForgotPassword/ForgotPassword';
+import Offers from './pages/Offers/Offers';
+import Signin from './pages/Signin/Signin';
+import Signup from './pages/Signup/Signup';
 
 const routes = [
   { path: '/', element: Explore },

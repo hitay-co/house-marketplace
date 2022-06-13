@@ -1,10 +1,10 @@
 import { useEffect, useState } from 'react';
 import { useParams } from 'react-router-dom';
 import { toast } from 'react-toastify';
-import Spinner from '../components/Spinner';
-import getErrorMessageForToastify from '../helpers/getErrorMessageForToastify';
-import { getMultipleDocsFromFirestore } from '../services/getMultipleDocsFromFirestore';
-import ListingItem from './ListingItem';
+import Spinner from '../Spinner/Spinner';
+import getErrorMessageForToastify from '../../helpers/getErrorMessageForToastify';
+import { getMultipleDocsFromFirestore } from '../../services/getMultipleDocsFromFirestore';
+import ListingItem from '../ListingItem/ListingItem';
 
 const Category = () => {
   const [listings, setListings] = useState([]);

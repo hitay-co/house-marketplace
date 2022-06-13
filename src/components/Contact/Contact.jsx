@@ -2,9 +2,9 @@ import { useEffect, useState } from 'react';
 import { useForm } from 'react-hook-form';
 import { useParams, useSearchParams } from 'react-router-dom';
 import { toast } from 'react-toastify';
-import getErrorMessageForToastify from '../helpers/getErrorMessageForToastify';
-import { getSingleDocFromFirestore } from '../services/getSingleDocFromFirestore';
-import Spinner from './Spinner';
+import getErrorMessageForToastify from '../../helpers/getErrorMessageForToastify';
+import { getSingleDocFromFirestore } from '../../services/getSingleDocFromFirestore';
+import Spinner from '../Spinner/Spinner';
 
 const Contact = () => {
   const [landlord, setLandlord] = useState(null);

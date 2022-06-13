@@ -7,10 +7,11 @@ import { toast } from 'react-toastify';
 import { A11y, Navigation, Pagination, Scrollbar } from 'swiper';
 import 'swiper/css/bundle';
 import { Swiper, SwiperSlide } from 'swiper/react';
-import shareIcon from '../assets/icons/shareIcon.svg';
-import getErrorMessageForToastify from '../helpers/getErrorMessageForToastify';
-import { getSingleDocFromFirestore } from '../services/getSingleDocFromFirestore';
-import Spinner from './Spinner';
+import getErrorMessageForToastify from '../../helpers/getErrorMessageForToastify';
+import shareIcon from '../../assets/icons/shareIcon.svg';
+
+import { getSingleDocFromFirestore } from '../../services/getSingleDocFromFirestore';
+import Spinner from '../Spinner/Spinner';
 
 const Listing = () => {
   const auth = getAuth();

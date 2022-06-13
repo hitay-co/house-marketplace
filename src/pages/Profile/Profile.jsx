@@ -5,15 +5,17 @@ import { useForm, useFormState } from 'react-hook-form';
 import Moment from 'react-moment';
 import { Link, useNavigate } from 'react-router-dom';
 import { toast } from 'react-toastify';
-import homeIcon from '../assets/icons/homeIcon.svg';
-import rightArrowIcon from '../assets/icons/keyboardArrowRightIcon.svg';
-import ListingItem from '../components/ListingItem';
-import Spinner from '../components/Spinner';
-import { db } from '../firebase.config';
-import getErrorMessageForToastify from '../helpers/getErrorMessageForToastify';
-import { deleteDataFromFirestore } from '../services/deleteDataFromFirestore';
-import { getMultipleDocsFromFirestore } from '../services/getMultipleDocsFromFirestore';
-import { getSingleDocFromFirestore } from '../services/getSingleDocFromFirestore';
+import homeIcon from '../../assets/icons/homeIcon.svg';
+import rightArrowIcon from '../../assets/icons/keyboardArrowRightIcon.svg';
+import ListingItem from '../../components/ListingItem/ListingItem';
+
+import Spinner from '../../components/Spinner/Spinner';
+
+import { db } from '../../firebase.config';
+import getErrorMessageForToastify from '../../helpers/getErrorMessageForToastify';
+import { deleteDataFromFirestore } from '../../services/deleteDataFromFirestore';
+import { getMultipleDocsFromFirestore } from '../../services/getMultipleDocsFromFirestore';
+import { getSingleDocFromFirestore } from '../../services/getSingleDocFromFirestore';
 
 const Profile = () => {
   const auth = getAuth();
