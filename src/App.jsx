@@ -1,25 +1,19 @@
-import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import { Suspense } from 'react';
+import { useRoutes } from 'react-router-dom';
 import { ToastContainer } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
-import routes from './routes';
 import Navbar from './components/Navbar/Navbar';
-import PrivateRoute from './components/PrivateRoute/PrivateRoute';
-import Profile from './pages/Profile/Profile';
+import Spinner from './components/Spinner/Spinner';
+import routes from './routes';
 
 const App = () => {
+  const appRoutes = useRoutes(routes);
   return (
-    <Router>
-      <Routes>
-        {routes.map((route, index) => (
-          <Route key={index} path={route.path} element={<route.element />} />
-        ))}
-        <Route path='/profile' element={<PrivateRoute />}>
-          <Route path='/profile' element={<Profile />} />
-        </Route>
-      </Routes>
+    <Suspense fallback={<Spinner />}>
+      {appRoutes}
       <Navbar />
       <ToastContainer />
-    </Router>
+    </Suspense>
   );
 };
 
