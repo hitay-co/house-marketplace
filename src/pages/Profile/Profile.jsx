@@ -8,14 +8,13 @@ import { toast } from 'react-toastify';
 import homeIcon from '../../assets/icons/homeIcon.svg';
 import rightArrowIcon from '../../assets/icons/keyboardArrowRightIcon.svg';
 import ListingItem from '../../components/ListingItem/ListingItem';
-
 import Spinner from '../../components/Spinner/Spinner';
-
 import { db } from '../../firebase.config';
 import getErrorMessageForToastify from '../../helpers/getErrorMessageForToastify';
 import { deleteDataFromFirestore } from '../../services/deleteDataFromFirestore';
 import { getMultipleDocsFromFirestore } from '../../services/getMultipleDocsFromFirestore';
 import { getSingleDocFromFirestore } from '../../services/getSingleDocFromFirestore';
+import './Profile.css';
 
 const Profile = () => {
   const auth = getAuth();

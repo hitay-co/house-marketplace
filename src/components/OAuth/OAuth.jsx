@@ -5,6 +5,7 @@ import { toast } from 'react-toastify';
 import googleIcon from '../../assets/icons/googleIcon.svg';
 import { db } from '../../firebase.config';
 import getErrorMessageForToastify from '../../helpers/getErrorMessageForToastify';
+import './OAuth.css';
 
 const OAuth = () => {
   const navigate = useNavigate();

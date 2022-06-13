@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom';
 import bathtubeIcon from '../../assets/icons/bathtubIcon.svg';
 import bedIcon from '../../assets/icons/bedIcon.svg';
 import { ReactComponent as DeleteIcon } from '../../assets/icons/deleteIcon.svg';
+import './ListingItem.css';
 
 const ListingItem = ({ onDelete, listing }) => {
   const {

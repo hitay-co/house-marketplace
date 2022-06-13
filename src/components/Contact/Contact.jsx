@@ -5,6 +5,7 @@ import { toast } from 'react-toastify';
 import getErrorMessageForToastify from '../../helpers/getErrorMessageForToastify';
 import { getSingleDocFromFirestore } from '../../services/getSingleDocFromFirestore';
 import Spinner from '../Spinner/Spinner';
+import './Contact.css';
 
 const Contact = () => {
   const [landlord, setLandlord] = useState(null);

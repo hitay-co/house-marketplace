@@ -9,9 +9,9 @@ import 'swiper/css/bundle';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import getErrorMessageForToastify from '../../helpers/getErrorMessageForToastify';
 import shareIcon from '../../assets/icons/shareIcon.svg';
-
 import { getSingleDocFromFirestore } from '../../services/getSingleDocFromFirestore';
 import Spinner from '../Spinner/Spinner';
+import './Listing.css';
 
 const Listing = () => {
   const auth = getAuth();

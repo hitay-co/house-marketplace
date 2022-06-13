@@ -1,0 +1,98 @@
+.formLabel {
+  font-weight: 600;
+  margin-top: 1rem;
+  display: block;
+}
+
+.formButtons {
+  display: flex;
+}
+
+.flex {
+  display: flex;
+}
+
+.formButton,
+.formInput,
+.formInputAddress,
+.formInputName,
+.formInputSmall,
+.formInputFile,
+.formButtonActive {
+  padding: 0.9rem 3rem;
+  background-color: #ffffff;
+  font-weight: 600;
+  border-radius: 1rem;
+  font-size: 1rem;
+  margin: 0.5rem 0.5rem 0 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.formButtonActive {
+  background-color: #885df1;
+  color: #ffffff;
+}
+
+.formInput,
+.formInputAddress,
+.formInputName,
+.formInputSmall,
+.formInputFile {
+  border: none;
+  outline: none;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.formPriceDiv {
+  display: flex;
+  align-items: center;
+}
+
+.formPriceText {
+  margin-left: -1.5rem;
+  font-weight: 600;
+}
+
+.imagesInfo {
+  font-size: 0.9rem;
+  opacity: 0.75;
+}
+
+.createListingButton {
+  margin-top: 5rem;
+}
+
+.formInputSmall,
+.formInputFile {
+  margin-right: 3rem;
+  padding: 0.9rem 0.7rem;
+  text-align: center;
+}
+
+.formInputName {
+  padding: 0.9rem 1rem;
+  width: 90%;
+  max-width: 326px;
+}
+
+.formInputAddress {
+  padding: 0.9rem 1rem;
+  width: 90%;
+  max-width: 326px;
+}
+
+.formInputFile {
+  width: 100%;
+}
+
+.formInputFile::-webkit-file-upload-button {
+  background-color: #885df1;
+  border: none;
+  color: #ffffff;
+  font-weight: 600;
+  padding: 0.5rem 0.75rem;
+  border-radius: 1rem;
+  margin-right: 1rem;
+}

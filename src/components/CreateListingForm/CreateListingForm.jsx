@@ -1,4 +1,5 @@
 import { useFormContext } from 'react-hook-form';
+import './CreateListingForm.css';
 
 const CreateListingForm = () => {
   const { register, setValue, watch } = useFormContext();

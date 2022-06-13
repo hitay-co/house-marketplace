@@ -4,6 +4,7 @@ import ListingItem from '../../components/ListingItem/ListingItem';
 import Spinner from '../../components/Spinner/Spinner';
 import getErrorMessageForToastify from '../../helpers/getErrorMessageForToastify';
 import { getMultipleDocsFromFirestore } from '../../services/getMultipleDocsFromFirestore';
+import './Offers.css';
 
 const Offers = () => {
   const [listings, setListings] = useState([]);
@@ -41,7 +42,7 @@ const Offers = () => {
   };
 
   return (
-    <div className='category'>
+    <div className='offers'>
       <header>
         <p className='pageHeader'>Offers</p>
       </header>

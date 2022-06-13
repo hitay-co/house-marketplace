@@ -8,8 +8,8 @@ import CreateListingForm from '../CreateListingForm/CreateListingForm';
 import { db } from '../../firebase.config';
 import getErrorMessageForToastify from '../../helpers/getErrorMessageForToastify';
 import uploadImages from '../../services/uploadImages';
-
 import Spinner from '../Spinner/Spinner';
+import './CreateListing.css';
 
 const CreateListing = () => {
   const [loading, setLoading] = useState(false);

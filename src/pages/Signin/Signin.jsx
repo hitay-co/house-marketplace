@@ -7,6 +7,7 @@ import { ReactComponent as ArrowRightArrow } from '../../assets/icons/keyboardAr
 import visibilityIcon from '../../assets/icons/visibilityIcon.svg';
 import OAuth from '../../components/OAuth/OAuth';
 import getErrorMessageForToastify from '../../helpers/getErrorMessageForToastify';
+import './Signin.css';
 
 const Signin = () => {
   const auth = getAuth();

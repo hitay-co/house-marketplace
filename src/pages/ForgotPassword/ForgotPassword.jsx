@@ -4,6 +4,7 @@ import { Link } from 'react-router-dom';
 import { toast } from 'react-toastify';
 import { ReactComponent as ArrowRightArrow } from '../../assets/icons/keyboardArrowRightIcon.svg';
 import getErrorMessageForToastify from '../../helpers/getErrorMessageForToastify';
+import './ForgotPassword.css';
 
 const ForgotPassword = () => {
   const { handleSubmit, register } = useForm();

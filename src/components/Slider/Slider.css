@@ -1,0 +1,20 @@
+.swiperSlideText {
+  color: #ffffff;
+  position: absolute;
+  top: 70px;
+  left: 0;
+  font-weight: 600;
+  max-width: 90%;
+  font-size: 1.25rem;
+  background-color: rgba(0, 0, 0, 0.8);
+  padding: 0.5rem;
+}
+@media (min-width: 1024px) {
+  .swiperSlideText {
+    font-size: 1.75rem;
+  }
+}
+
+.exploreHeading {
+  font-weight: 700;
+}

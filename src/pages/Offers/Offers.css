@@ -1,0 +1,13 @@
+.offers {
+  margin-bottom: 10rem;
+}
+
+.offerBadge {
+  padding: 0.25rem 0.5rem;
+  background-color: #000000;
+  color: #ffffff;
+  border-radius: 1rem;
+  margin-left: 1rem;
+  font-size: 0.8rem;
+  opacity: 0.75;
+}

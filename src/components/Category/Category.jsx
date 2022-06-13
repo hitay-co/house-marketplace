@@ -5,6 +5,7 @@ import Spinner from '../Spinner/Spinner';
 import getErrorMessageForToastify from '../../helpers/getErrorMessageForToastify';
 import { getMultipleDocsFromFirestore } from '../../services/getMultipleDocsFromFirestore';
 import ListingItem from '../ListingItem/ListingItem';
+import './Category.css';
 
 const Category = () => {
   const [listings, setListings] = useState([]);

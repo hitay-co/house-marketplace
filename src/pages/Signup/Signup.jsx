@@ -13,6 +13,7 @@ import visibilityIcon from '../../assets/icons/visibilityIcon.svg';
 import OAuth from '../../components/OAuth/OAuth';
 import { db } from '../../firebase.config';
 import getErrorMessageForToastify from '../../helpers/getErrorMessageForToastify';
+import './Signup.css';
 
 const Signup = () => {
   const { register, handleSubmit } = useForm();

@@ -2,6 +2,7 @@ import { Link } from 'react-router-dom';
 import rentCategoryImage from '../../assets/images/rentCategoryImage.jpg';
 import sellCategoryImage from '../../assets/images/sellCategoryImage.jpg';
 import Slider from '../../components/Slider/Slider';
+import './Explore.css';
 
 const Explore = () => {
   return (
